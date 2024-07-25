@@ -1,0 +1,23 @@
+@import './constants';
+/*
+* Browsers by default will set  margin and padding
+* it's best to avoid this
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  /*
+    * Simialr to the above, this will make sure no 
+    * unwanted badding in boxes
+    */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323", san-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-grey-light-1;
+  background-color: black;
+}
